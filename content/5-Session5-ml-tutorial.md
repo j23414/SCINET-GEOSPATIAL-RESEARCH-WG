@@ -92,11 +92,12 @@ git clone --single-branch https://github.com/kerriegeil/SCINET-GEOSPATIAL-RESEAR
 
 **Step 3: Run a notebook**
 
-* You should now see a folder (file system extension on the left hand side of JupyterLab) titled *SCINET-GEOSPATIAL-RESEARCH-WG*.
-* Navigate to */SCINET-GEOSPATIAL-RESEARCH-WG/tutorials/*
-* Open session5_machine_learning.ipynb
+* You should now see the file session5_machine_learning.ipynb (in the file system extension on the left hand side of JupyterLab, you may have to click 'refresh')
+* Double click the session5 file to open it
 * Select the py_geo kernel (upper right corner in the notebook)
 * Execute blocks of script by clicking the "play" icon in the notebook or typing Shift+Enter 
+
+* If you used git clone to get the tutorial Navigate to *~/SCINET-GEOSPATIAL-RESEARCH-WG/tutorials/session5_machine_learning.ipynb*
 
 <br><br>
 
