@@ -598,51 +598,6 @@ conda list
 ```
 <br>
 
-#### **Export the Environment Software List to a Specification File**
-
-Create a specification file that lists every single software package that's in an environment, including the packages that are specific to the operating system you are running on. You can save this file wherever you want. Here we'll save it in the Conda envs folder where the rest of your environment information lives.<br>
-```bash
-conda list --explicit > ~/.conda/envs/session3_env_spec_file.txt
-```
-
-View the file you just made<br>
-```bash
-cat ~/.conda/envs/session3_env_spec_file.txt
-```
-
-Notice at the very top of the file there are instructions for recreating the environment from this file, we'll cover this shortly. It also tells you what operating system you can recreate the environment on, in our case you can recreate this environment on 64-bit linux platforms. Recreating the environment on other platforms will likely not work.
-<br><br>
-
-#### **Delete an Environment and Recreate from a Specification File**
-
-Let's say you run out of space to store all your environments. No problem, as long as you have a specification file that lists the environment software, you can go ahead and delete your environment because you'll be able to recreate it anytime.<br>
-```bash
-conda env remove --name session3_env
-```
-
-You can recreate the environment on the same machine you deleted it from<br>
-```bash
-conda create --name session3_env --file ~/.conda/envs/session3_env_spec_file.txt
-```
-<br>
-
-#### **Export the Environment Across OS Platforms**
-
-To use an environment across different operating systems you need create a yml file with a list of software that excludes all the OS-specific software in the environment and only includes the major software packages (without all the dependencies). For our session3_env this means the packages we explicitly installed: python 3.7, numpy, dask, dask-jobqueue, ipykernel.<br>
-```bash
-
-conda activate session3_env
-conda env export --from-history > ~/.conda/envs/session3_env.yml
-```
-
-View the file you just made<br>
-```bash
-cat ~/.conda/envs/session3_env.yml
-```
-
-As with the specification file we made earlier, you can use this yml file to recreate your environment on the same machine. You can also use a yml to create a similar environment on another machine running a different operating system. This means you can share this yml with other scientists too. Note if there is a --prefix line in your yml file you'll need to modify that if recreating on a different machine or in a different file structure (e.g. different Ceres user). Note: this isn't a 100% foolproof method of getting your codes to run across different platforms because some software just isn't fully supported on all operating systems. Being able to run your codes successully across operating systems is the major benefit of using containers, which we will cover in the next segment.
-<br><br>
-
 #### **Change or Deactivate an Environment**
 
 To change environments<br>
@@ -656,6 +611,53 @@ conda deactivate
 ``` 
 will switch you from a non-base environment back to whichever environment you were in previously.
 <br><br>
+
+#### **Export the Environment Software List to a Specification File**
+
+Create a specification file that lists every single software package that's in an environment, including the packages that are specific to the operating system you are running on. You can save this file wherever you want. Here we'll save it in the Conda envs folder where the rest of your environment information lives.<br>
+```bash
+conda activate session3_env
+conda list --explicit > ~/.conda/envs/session3_env_spec_file.txt
+```
+
+View the file you just made<br>
+```bash
+cat ~/.conda/envs/session3_env_spec_file.txt
+```
+
+Notice at the very top of the file there are instructions for recreating the environment from this file, we'll cover this shortly. It also tells you what operating system you can recreate the environment on, in our case you can recreate this environment on 64-bit linux platforms. Recreating the environment on other platforms will likely not work.
+<br><br>
+
+#### **Export the Environment Across OS Platforms**
+
+To use an environment across different operating systems you need create a yml file with a list of software that excludes all the OS-specific software in the environment and only includes the major software packages (without all the dependencies). For our session3_env this means the packages we explicitly installed: python 3.7, numpy, dask, dask-jobqueue, ipykernel.<br>
+```bash
+
+conda env export --from-history > ~/.conda/envs/session3_env.yml
+```
+
+View the file you just made<br>
+```bash
+cat ~/.conda/envs/session3_env.yml
+```
+
+As with the specification file we made earlier, you can use this yml file to recreate your environment on the same machine. You can also use a yml to create a similar environment on another machine running a different operating system. This means you can share this yml with other scientists too. Note if there is a --prefix line in your yml file you'll need to modify that if recreating on a different machine or in a different file structure (e.g. different Ceres user). Note: this isn't a 100% foolproof method of getting your codes to run across different platforms because some software just isn't fully supported on all operating systems. Being able to run your codes successully across operating systems is the major benefit of using containers, which we will cover in the next segment.
+<br><br>
+
+#### **Delete an Environment and Recreate from a Specification File**
+
+Let's say you run out of space to store all your environments. No problem, as long as you have a specification file that lists the environment software, you can go ahead and delete your environment because you'll be able to recreate it anytime.<br>
+```bash
+conda deactivate
+conda env remove --name session3_env
+```
+
+You can recreate the environment on the same machine you deleted it from<br>
+```bash
+conda create --name session3_env --file ~/.conda/envs/session3_env_spec_file.txt
+```
+<br>
+
 
 #### **Running the Session 3 Tutorial with Your New Environment**
 
