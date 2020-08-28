@@ -4,7 +4,7 @@ nav: true
 ---
 
 {% capture text %}
-We will stop approving new registrations about an hour before each session. Please register in advance of that cutoff so you don't get left out!
+We will stop approving new registrations when we reach 100 participants. We already have 56 participants registered as of 3pm on Fri 8/28. Please register asap so you don't get left out!
 {% endcapture %} 
 {% include alert.md text=text color='warning' %}
 
