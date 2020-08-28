@@ -88,8 +88,13 @@ Please ensure that you have applied for a SCINet account well in advance of this
 ### Session 1: Annual Meeting of the SCINet Geospatial Research Working Group
 
 **Tuesday August 25, 11am - 2pm MDT**<br>
-**Registration Required:** [https://www.zoomgov.com/meeting/register/vJItfuygqjguHqkebA1gRTbEOzS-d46d0iI](https://www.zoomgov.com/meeting/register/vJItfuygqjguHqkebA1gRTbEOzS-d46d0iI)<br>
+**Registration Required:** sessino complete<br>
 **Prerequisites:** None
+
+{% capture text %}
+The full content of this session is available on the session page. Access it using the "Session#" tabs at the very top and bottom of this homepage.
+{% endcapture %} 
+{% include alert.md text=text %}
 
 We encourage everyone to attend this general session- members and non-members from USDA ARS. 
 
@@ -108,8 +113,13 @@ We encourage everyone to attend this general session- members and non-members fr
 ### Session 2: Tutorial: Introduction to the Ceres High-Performance Computing System Environment (SSH, JupyterHub, Basic Linux, SLURM batch script)
 
 **Thursday August 27, 11am - 1pm MDT**<br>
-**Registration Required:** [https://www.zoomgov.com/meeting/register/vJIsduipqTosGGU7PjJjQl69rTHjMCoOm-s](https://www.zoomgov.com/meeting/register/vJIsduipqTosGGU7PjJjQl69rTHjMCoOm-s)<br>
+**Registration Required:** session completed<br>
 **Prerequisites:** have a SCINet account and be able to login ([apply for an account here](https://scinet.usda.gov/signup/))<br>
+
+{% capture text %}
+The full content of this tutorial session is available on the session page. Access it using the "Session#" tabs at the very top and bottom of this homepage.
+{% endcapture %} 
+{% include alert.md text=text %}
 
 This interactive follow-along session will demonstrate how to access the SCINet Ceres HPC system by using Secure Shell at the command line as well as by using the JupyterHub web interface. We will also cover how to access JupyterLab and RStudio on the Ceres HPC through the JupyterHub web interface, basic linux commands, and how to write a SLURM batch script to submit a compute job on the Ceres HPC. 
 
@@ -119,8 +129,13 @@ We will not troubleshoot individual SCINet account access problems during this s
 ### Session 3: Tutorial: Introduction to Distributed Computing on the Ceres HPC System Using Python and Dask
 
 **Thursday August 27, 1:30pm - 2:30pm MDT**<br>
-**Registration Required:** [https://www.zoomgov.com/meeting/register/vJIsd-ChrTgtEheHiv-AUrMjZ0YyBKhrPbk](https://www.zoomgov.com/meeting/register/vJIsd-ChrTgtEheHiv-AUrMjZ0YyBKhrPbk)<br>
+**Registration Required:** session completed<br>
 **Prerequisites:** basic Python or other basic programming skill helpful (expertise not required), have a SCINet account and be able to login ([apply for an account here](https://scinet.usda.gov/signup/))
+
+{% capture text %}
+The full content of this tutorial session is available on the session page. Access it using the "Session#" tabs at the very top and bottom of this homepage.
+{% endcapture %} 
+{% include alert.md text=text %}
 
 This session will be an interactive follow-along about how to compute in parallel on the Ceres HPC system using Python tools. Participants will use their own SCINet account to walk through a Jupyter Notebook and execute Python code on the Ceres HPC system.
 
