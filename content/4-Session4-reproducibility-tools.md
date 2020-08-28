@@ -317,7 +317,14 @@ git init
 #### Step 2: Edit away!
 
 Adding content to your local repo is the exact same process as Step 3 in the previous workflow
+
+```bash
+touch newfile.txt
+git add newfile.txt
+git commit -m "create new text file"
+```
 <br><br>
+
 
 #### Step 3: Create a Remote Repo on Github and Push Your Local Repo Up to Your Github Repo
 
