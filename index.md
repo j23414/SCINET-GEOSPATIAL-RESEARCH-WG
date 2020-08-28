@@ -82,7 +82,7 @@ Please ensure that you have applied for a SCINet account well in advance of this
 ### Session 1: Annual Meeting of the SCINet Geospatial Research Working Group
 
 **Tuesday August 25, 11am - 2pm MDT**<br>
-**Registration Required:** sessino complete<br>
+**Registration Required:** session completed<br>
 **Prerequisites:** None
 
 {% capture text %}
