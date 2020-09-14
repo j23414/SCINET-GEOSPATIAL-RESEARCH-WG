@@ -7,7 +7,11 @@ nav: true
 
 This page contains all the info you need to participate in Session 1 of the SCINet Geospatial Workshop 2020. 
 
-After the session we will post any notes, outcomes, and links to video recordings on this page as well.
+{% capture text %}
+The session recording is available for anyone with a usda.gov email address and eAuthentication at (location coming soon).
+{% endcapture %} 
+{% include alert.md text=text %}
+
 <br><br>
 
 # AGENDA	 
