@@ -14,6 +14,11 @@ We will stop approving new registrations when we reach 100 participants. We alre
 <br>
 The 2020 SCINet Geospatial Workshop concludes with a symposium showcasing four invited speakers, each giving a 30-minute presentation on how they use machine learning for agricultural research, followed by a panel discussion. 
 
+
+{% capture text %}
+The session recording is available for anyone with a usda.gov email address and eAuthentication at (location coming soon).
+{% endcapture %} 
+{% include alert.md text=text %}
 <br><br>
 
 ## AGENDA	(MDT)
