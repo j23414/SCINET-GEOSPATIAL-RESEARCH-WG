@@ -13,7 +13,11 @@ We will stop approving new registrations about an hour before each session. Plea
 
 This page contains all the info you need to participate in Session 2 of the SCINet Geospatial Workshop 2020.
 
-After the session we will post a link to the video recording on this page as well.
+{% capture text %}
+The session recording is available for anyone with a usda.gov email address and eAuthentication at (location coming soon).
+{% endcapture %} 
+{% include alert.md text=text %}
+<br><br>
 
 **Learning Goals:**
 
