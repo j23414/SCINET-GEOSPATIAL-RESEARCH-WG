@@ -14,7 +14,12 @@ We will stop approving new registrations about an hour before each session. Plea
 
 This page contains all the info you need to participate in Session 3 of the SCINet Geospatial Workshop 2020.
 
-After the session we will post a link to the video recording on this page as well.
+**A note about running this tutorial in your home directory:** some participants got errors either downloading to or running the tutorial from their home directory because they did not have enough space free in their home directory. If this happens to you, download to and run the tutorial from a project directory. If you are a new HPC user and don't yet have a project directory, you can request a small increase in space to your home directory from the SCINet VRSC at scinet_vrsc@usda.gov.
+
+{% capture text %}
+The session recording is available for anyone with a usda.gov email address and eAuthentication at (location coming soon).
+{% endcapture %} 
+{% include alert.md text=text %}
 
 <br>
 
