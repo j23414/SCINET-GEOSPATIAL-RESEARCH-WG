@@ -4,7 +4,7 @@ layout: default
 ---
 {% include figure.html img="usda_symbol_rgb_color.svg" alt="intro image here" caption="" width="100%" %}
 
-# SCINet Geospatial Workshop 2020
+# SCINet Geospatial Research Workshop 2020
 
 **Harnessing SCINet computational resources in geospatial data science to further sustainable and intensified agriculture.**
 
@@ -39,7 +39,7 @@ The workshop is split over 6 separate Zoom sessions (as well as a pre-meeting as
   
 **To follow along with the tutorials you need to already have or [apply for a SCINet account](https://scinet.usda.gov/signup/) and be able to successfully login to your account. We recommend applying for an account by 8/12/2020 at the latest**, as the process can take 1-2 weeks for final approval. Please note, if you need help accessing your SCINet account you should plan on attending the pre-meeting login assistance session on 8/19/2020 (Session 0), but make sure you have applied for an account well in advance of this session.
 
-**To follow along with the Session 4 Tutorial: Computational Reproducibility Tools make sure you** [**create a Github account**](https://github.com/join) for yourself and remember your Github username and password. You will also, of course, need a SCINet account as described above.
+**To follow along with the Session 4 Tutorial: Computational Reproducibility Tools make sure you** [**create a free personal Github account**](https://github.com/join) for yourself and remember your Github username and password. You will also, of course, need a SCINet account as described above.
 
 **Please register for each session individually** using the registration links below so we can have an idea of how many people will be present at each event. Note, each session will have a separate Zoom link and password so you must register for each session you would like to attend.
 
@@ -179,13 +179,13 @@ We will not cover basic Python, basic distributed/parallel computing, how to log
 ### Session 6: Symposium: Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture
 
 **Tuesday September 1, 11am - 2pm MDT**<br>
-**Registration Required:**  [https://www.zoomgov.com/meeting/register/vJIscO-gqzwqHIbg_hUB-6vHosTYeDjjS_Y]( https://www.zoomgov.com/meeting/register/vJIscO-gqzwqHIbg_hUB-6vHosTYeDjjS_Y)<br>
+**Registration Required:**  session completed<br>
 **Prerequisites:** None
 
 {% capture text %}
-We will stop approving new registrations when we reach 100 participants. We already have 56 participants registered as of 3pm on Fri 8/28. Please register asap so you don't get left out!
+Content from the session is available on the session page. Access it using the "Session#" tabs at the very top and bottom of this homepage.
 {% endcapture %} 
-{% include alert.md text=text color='warning' %}
+{% include alert.md text=text %}
 
 This session is for USDA ARS scientists, scientific staff, and University collaborators who are interested in learning about how machine learning is being used in agricultural research. We will have 4 invited speakers from outside of USDA ARS give talks about using maching learning for a range of agricultural research questions, followed by a panel discussion. 
 
