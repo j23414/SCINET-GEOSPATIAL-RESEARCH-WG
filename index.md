@@ -10,6 +10,8 @@ layout: default
 
 *Hosted By: SCINet Geospatial Research Working Group with support from [USDA ARS, SCINet Scientific Computing Initiative](https://scinet.usda.gov/)*
 
+Dates: 8/25/2020 - 9/1/2020
+
 <br>
 # Goals
 
