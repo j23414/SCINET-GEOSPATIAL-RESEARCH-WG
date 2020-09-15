@@ -30,6 +30,11 @@ Suzy Stillman, SCINet Postdoc, Las Cruces, NM
 <br>
 # How to Participate
 
+{% capture text %}
+If you are coming to this website after the workshop sessions have ended, welcome! All the tutorials we covered during the workshop have been formatted such that you can follow along with them anytime on your own and at your own pace from our webpages. Access session content, including all tutorials, using the "Session#" tabs at the very top and bottom of this homepage. If you run into any errors, feel free to notify the organizing committee so that we can correct the content. Thank you and happy learning!
+{% endcapture %} 
+{% include alert.md text=text %}
+
 **All members of the working group as well as non-members from USDA ARS are welcome to participate!** We also welcome our University collaborators who have USDA SCINet accounts. We are hoping that everyone will attend the general session of the working group ([Session 1](#session-1-annual-meeting-of-the-scinet-geospatial-research-working-group)) and then pick and choose other sessions to attend based on your own interests and skill level.
 
 The workshop is split over 6 separate Zoom sessions (as well as a pre-meeting assistance session) that will include:
