@@ -332,6 +332,7 @@ Content Ideas
 - The same analysis but written in multiple languages could be really helpful
 - Provide a good example of a publication supplement in a Jupyter Notebook format
 - A couple tutorials that give examples of individual scripts, then a different tutorial showing how they could be run in sequence using Nextflow
+- embarassingly parallel example using Python- specifically a workflow that runs a Python script many times with different input data for each job
 - How to get a DOI for your container/analysis scripts
 - Document how to access wsl2 – Windows Subsystem Linux
 
