@@ -253,7 +253,7 @@ Suzy began working as a SCINet Postdoc in Las Cruces, NM in Dr. Deb Peters’ re
 #### Shawn Taylor, Ecologist
 ![picture of shawn](/SCINET-GEOSPATIAL-RESEARCH-WG/images/postdoc-pics/shawn-taylor-150-150.jpg)
 
-Shawn is currently a postdoc at the USDA-ARS Jornada Experimental Range in Las Cruces, NM working with Dr. Dawn Browning. He will begin his SCINet postdoc in October, 2020. His work will integrate large streams of sensor data across the Long Term Agricultural Research (LTAR) network to help promote increased production and sustainability. Shawn obtained his PhD from the University of Florida in 2019, where he researched best practices in ecological forecasting and implemented a continental scale phenology forecast. 
+Shawn is currently a postdoc at the USDA-ARS Jornada Experimental Range in Las Cruces, NM working with Dr. Dawn Browning. He is currently integrating large streams of sensor data across the Long Term Agricultural Research (LTAR) network to help promote increased production and sustainability. Shawn obtained his PhD from the University of Florida in 2019, where he researched best practices in ecological forecasting and implemented a continental scale phenology forecast. He will begin his SCINet postdoc in October, 2020.
 
 [return to agenda](#agenda)
 <br><br>
