@@ -1,0 +1,133 @@
+00:06:33	Rowan Gaffney:	are you using the airbuds
+00:07:00	Rowan Gaffney:	maybe just try the computer audio option?
+00:11:06	Nicole Kaplan:	hi
+00:11:57	Rowan Gaffney:	Hi Nicole!
+00:13:16	Rowan Gaffney:	session 2 link: https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/content/2-Session2-intro-to-ceres.html
+00:25:06	Alicia Foxx:	I can
+00:31:09	Zhanyou Xu:	When we require 16/32 of core from Ceres to run python/R srudio, do we request regular cpu or HPC cpu/gpu?  
+00:32:07	Zhanyou Xu:	thanks
+00:38:14	Lina Castano-Duque:	In CERES, can I request computing resources to do interactive coding/analysis instead of using batch for jobs that require more power than the available in the login node? 
+00:38:17	Dave Fleisher:	how many nodes on a core
+00:39:06	Zhanyou Xu:	Can ceres host R Shiny interactive web apps? 
+00:41:35	Sivanandan Chudalayandi:	hello
+00:42:04	Marina Kraeva:	I agree with Rowan
+00:42:05	David Horvath:	So how do yo know what resources are needed to run a particular program? Is there guidance about what resources one should request for some common processes (say running BA or Trinity or canu
+00:42:38	Zhanyou Xu:	Do we have R connect ?
+00:42:47	David Horvath:	That should be BWA not BA
+00:42:49	Zhanyou Xu:	if yes, then it can host apps?
+00:43:34	Zhanyou Xu:	thanks let's move on
+00:45:04	Marina Kraeva:	Shiny is available in the jupyterhub, but I personally have not tried it
+00:45:57	Alicia Foxx:	Rowan can you speak a little louder for us? Thank you
+00:46:10	Alicia Foxx:	Thank you 
+00:48:41	Melanie Kammerer:	Is there a SCINet resource or recommendation for where to archive data?
+00:50:42	Marina Kraeva:	5G !!!
+00:51:47	Yanghui Kang:	Can I request a project directory using a guest account (not associated with a USDA email)?
+00:52:42	Kerrie Geil:	we don't really have a blanket long term archive for all of ARS data. There are platforms like USDA ARS AgCROS that are providing this service for some geospatial datasets. There is also the National Agricultural Library's AgData Commons, which is more of a catalogue of metadata but also can provide archival services for smaller datasets. There are policies coming down the line here at USDA that will require us all to store our research data in a public repository online like AgData Commons, figshare, etc
+00:53:04	Marina Kraeva:	only ARS employees have access to the project request form
+00:53:35	Kerrie Geil:	Marina, could she have her supervisor fill out the project request form for her?
+00:53:43	Marina Kraeva:	Yes
+00:54:02	Lina Castano-Duque:	Is the software common for all available as modules?
+00:54:16	Marina Kraeva:	Lina, yes
+00:55:00	Jerry Martin:	Can we install our own custom packages for R or Python?
+00:55:04	Zhanyou Xu:	if the user does NOT sign off ceres, will resources wasted? 
+00:55:21	Nicole Kaplan:	does globus require a vpn? bc of telework can you set it up from a remote ARS server to ceres?
+00:55:33	David Horvath:	You ca also use icommands to move data to CERES from Cyverse
+00:58:55	Zhanyou Xu:	I have login ceres with putty, do i need to relogin using ssh? 
+00:59:12	Kerrie Geil:	nope, putty is actually using ssh
+01:06:27	Claire Baffaut:	What link did you use? Can you show this again?
+01:06:46	Kerrie Geil:	https://jupyterhub.scinet.usda.gov/
+01:07:23	Karla Franco Melendez:	How do we sign up for JupiterHub?
+01:07:43	Danielle Lemay:	Is verification code needed even if on VPN ?
+01:07:58	Kerrie Geil:	Everyone please try to log in with jupyterhub now. We will be using this to connect to ceres for the rest of the tutorial
+01:08:14	Marina Kraeva:	yes, verification code is always needed
+01:08:29	Karla Franco Melendez:	How do we sign up for JupiterHub?
+01:08:43	Kerrie Geil:	You don't need to sign up for jupyterhub. As long as you have signed up for a scinet account you just enter your scinet username and password
+01:08:48	Marina Kraeva:	Karla, if you have SCINet account, you can login to jupyterhub
+01:09:05	Tamie Veith:	Where do you get the verification code?
+01:09:10	Nicole Kaplan:	how was it that rowan's had a drop-down of directories?
+01:09:32	Andrew French:	my browser doesn't give a pull down list for number of cores
+01:09:43	Danielle Lemay:	Is the password different from our SciNet password?
+01:09:59	Claire Baffaut:	I am not getting that screen
+01:10:00	Kerrie Geil:	he has dropdown options because he uses this all the time and the webpage saved his info
+01:10:05	Elizabeth Chin:	Can JupyterHub also be used with a conda environment or only e.g. Docker containers?
+01:10:07	Nicole Kaplan:	thx
+01:10:51	srinivasa pinnamaneni:	its taking too long
+01:10:53	Claire Baffaut:	THe link you gave does not go to the screen that Rowan is showing
+01:11:38	srinivasa pinnamaneni:	site can,t be reached
+01:12:13	Zhanyou Xu:	cores requested  from here are not associated with HPC? 
+01:13:08	Aaron Jackson:	just fyi it does not work with firefox
+01:13:44	Karla Franco Melendez:	Do we have to make any selections of node, cores, job time? Or will that be done later?
+01:13:50	Alex Arp:	It works in Firefox on mac
+01:14:05	Kerrie Geil:	Karla, we are getting there. Some people are stuck on the login page...
+01:14:37	Danielle Lemay:	Fyi … username all lowercase (it is case sensitive)
+01:15:03	Melanie Kammerer:	I'm using firefox on Windows with no issues. Just updated it a few days ago, so maybe older versions of firefox don't work?
+01:15:48	Alicia Foxx:	Rowan can you zoom in a little bit?
+01:16:03	Alicia Foxx:	Thank you 
+01:16:11	Alicia Foxx:	yes - thank you
+01:17:47	Elizabeth Chin:	are nodes and partitions the same thing?
+01:19:17	Kerrie Geil:	partitions and queues are the same thing. a partition is a collection of nodes
+01:19:45	Elizabeth Chin:	thanks!
+01:21:21	Claire Baffaut:	still not in. Taking forever.
+01:26:53	Melanie Kammerer:	2-factor instructions: https://scinet.usda.gov/guide/multifactor/
+01:27:57	Claire Baffaut:	Can I use the ssh if I started already with Jupyterhub (still not ready)
+01:28:45	Claire Baffaut:	It has been more than 6 minutes. It says it is starting up
+01:31:11	Nicole Kaplan:	thank you, it's small and challenging to see
+01:31:32	Gerard Lazo:	ctl-sht-+
+01:32:11	Yanghui Kang:	maybe reduce your desktop resolution
+01:32:34	Sean Kearney:	control and + will increase size of whole browser
+01:32:39	Nicole Kaplan:	it's getting bigger
+01:33:26	Dave Fleisher:	ok for me
+01:33:53	Nicole Kaplan:	that's good now
+01:37:27	Danielle Lemay:	/usr/local/bin doesn’t seem to be in the default path?  (I cannot run my_quotas which is in /usr/local/bin)
+01:37:56	Danielle Lemay:	Clarification: it works in ssh to CERES, but not in the JuptyerLab terminal
+01:44:13	Rowan Gaffney:	Danielle - I think the default JupyterLab environment is isolated from the general Ceres system (containerized), and only certain folders I "binded" to the environment (projects, home, etc...)
+01:44:21	Danielle Lemay:	Who is Others? Is that everyone with a SciNet account?
+01:44:26	Marina Kraeva:	Danielle, my_quotas is not available on the compute nodes; in jupyterhub you're on a compute node
+01:44:39	Danielle Lemay:	Thank you
+01:45:40	Curtis Ransom:	This is going to be recorded? If so, do we access the recording on the SciNet webpage you showed earlier?
+01:46:05	Rowan Gaffney:	Hi Curtis - this is recorded and we will be sharing the recordings
+01:46:12	ElHamidi.Hay:	how do you check whether you are in a login node or computing node?
+01:47:49	Rowan Gaffney:	ElHamidi - the login prompt will look like user.name@ceres$ , the login node will look like user.name@partitionname
+01:48:21	Rowan Gaffney:	whoops - the compute node will look like user.name@partitionname
+01:49:01	Rowan Gaffney:	my prompt on the compute node looks like: [rowan.gaffney@ceres14-compute-4 ~]$ 
+01:49:32	ElHamidi.Hay:	I have requested a project directory and was allocated space but when I do ls in my home directory, it doesn't show up 
+01:50:26	Rowan Gaffney:	ElHamidi - project directories are at: /lustre/project/projectName
+01:50:31	Rowan Gaffney:	Hope that helps!
+01:50:38	ElHamidi.Hay:	thanks much
+01:51:27	Nicole Kaplan:	I think you need to slow down, because there is a delay oin the video
+01:52:11	Nicole Kaplan:	slowly
+01:52:13	Nicole Kaplan:	please
+01:52:38	Rowan Gaffney:	Nicole, I think that may be your internet (no delay for me). Sorry, I was slow on my stuff, so Kerrie is trying to get thru the rest of the tutorial before the end of the session.
+01:53:18	Amy Hudson:	everything Kerrie is doing can be found here if you miss something: https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/content/2-Session2-intro-to-ceres.html#ceres-hpc-login-with-secure-shell-ssh
+01:53:32	Amy Hudson:	under basic linux commands
+01:54:08	Nicole Kaplan:	how do you save the txt file?
+01:54:39	Nicole Kaplan:	after pressing y
+01:55:14	Rowan Gaffney:	Nicole, after pressing Y, it should be saved
+01:55:24	Nicole Kaplan:	i'm not getting a prompt to save the text file after pressing y
+01:55:30	Amy Hudson:	File Name to Write: file1.txt
+01:56:05	Nicole Kaplan:	ok, got it thanks!!
+01:56:21	Rowan Gaffney:	Excellent!
+02:16:49	Nicole Kaplan:	can you see where you are computing?
+02:17:03	Gerard Lazo:	sinfo | grep idle   : to see what is free
+02:17:06	Zhanyou Xu:	How can I tell how many nodes I use?
+02:17:50	Yang Yang:	How do we know which node we are using?
+02:18:34	Rowan Gaffney:	Yang, you can try: squeue -u user.name
+02:18:41	Rowan Gaffney:	Kerrie is covering this now
+02:19:04	Yang Yang:	Yeah, got it! Thanks!
+02:19:08	Rowan Gaffney:	Gerard - thanks for the useful command!
+02:22:44	Danielle Lemay:	If you need more RAM than available by default with the core, do you just increase the number of cores? Would this be true if you have just one process (not distributed)?
+02:23:34	Rowan Gaffney:	Danielle, you can specify how much memory you want as well
+02:23:40	Zhanyou Xu:	[zhanyou.xu@ceres14-compute-7 ~]$ nano my-first-batch-script.sbatchError opening terminal: unknown.
+02:25:17	Rowan Gaffney:	aka, you can say something like 9 gigabytes per cpu or 12 GB per cpu - I don't remember the syntax off the top of my head though
+02:25:32	Zhanyou Xu:	[zhanyou.xu@ceres14-compute-7 ~]$ nano my-first-batch-script.sbatchError opening terminal: unknown.
+02:25:39	Zhanyou Xu:	what is the error?
+02:25:57	Max Feldman:	Is there any need to use ‘screen’ if I am worried about losing connection?
+02:27:23	Dave Fleisher:	really helpful guys, thanks
+02:27:26	Patrick Clark:	Great job. Lots of fun.
+02:28:03	Nicole Kaplan:	Thanks! The tutorial is really good as well as your expertise.
+02:28:14	Elizabeth Chin:	Danielle- I think you can specify memory like this:
+02:28:15	Elizabeth Chin:	#SBATCH --mem=125G   # maximum memory per node
+02:28:53	Elizabeth Chin:	The scinet ceres job script generator has been helpful for me to config the slurm job: https://scinet.usda.gov/support/ceres-job-script
+02:29:33	ElHamidi.Hay:	Thank you
+02:29:38	Danielle Lemay:	Thank you
+02:29:39	John Humphreys:	Fantastic - thanks!
