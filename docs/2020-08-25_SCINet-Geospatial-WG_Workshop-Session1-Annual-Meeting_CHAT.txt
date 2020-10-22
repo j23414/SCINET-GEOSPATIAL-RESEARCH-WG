@@ -1,0 +1,69 @@
+00:17:38	Rowan Gaffney:	Meeting Website: https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/
+00:17:57	Kerrie Geil:	https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/content/1-Session1-annual-meeting.html
+00:27:05	Amy Hudson:	For those who have recently joined we are following along at this site: https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/content/1-Session1-annual-meeting.html and you can access the entire Meeting Website: https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/
+00:34:43	Amy Hudson:	For later conversations, start thinking about: What are the most important things to move forward with out of these recommendations?
+What kind of content do we want to see in Quarterly meetings?
+00:35:54	Andrew Severin:	https://bioinformaticsworkbook.org/#gsc.tab=0
+00:38:28	Scott Havens:	If we already have example applications or test cases that showcase reproducible research that could utilize HPC, how do we add these to the Geospatial Workbook?
+00:39:32	Alisa Coffin:	Any possibility of including training with ENVI/IDL as part of the image processing training? The Envi modules include a lot of functionality specifically for satellite data processing and analysis.
+00:39:35	Alicia Foxx:	I wanted to share the AI training link: https://usda-ars-gbru.github.io/ml-training-site/agenda/
+00:39:36	Rowan Gaffney:	Hi Scott - that is awesome. Kerrie will be working on developing the workbook over the next 1-2 years, so you should get in contact with her.
+00:42:01	Rowan Gaffney:	Hi Alisa Coffin - We do not have IDL/ENVI tutorials for this workshop (partly because there is only a single person license on SCINet). Good point though - perhaps we can put together some example tutorials to share at a later date.
+00:42:27	Rowan Gaffney:	Thanks for sharing Alicia
+00:42:38	Alisa Coffin:	@Rowan -- I was thinking mainly for future trainings
+00:43:35	Yanghui Kang:	instead of basecamp, what about gitter, slack, discord, or others?
+00:43:52	Shawn Taylor:	Are there any metrics you can track to see if these efforts are increasing scinet usage?
+00:46:44	Melanie Kammerer:	How does the geospatial working group relate to or interact with the other SCINet working groups? Some of these goals seem larger than geospatial analyses specifically. Is there a centralized list of all SCINet trainings and workshops?
+00:47:46	Rowan Gaffney:	Hi Shawn - I don't think we have any formal metrics - may be something we want to try to figure out
+00:47:55	Lina Castano-Duque:	Will you have a detailed training about using Globus with SCINet?
+00:50:28	Melanie Kammerer:	Ok, thank you!
+00:50:48	Kerrie Geil:	https://scinet.usda.gov/opportunities/events
+00:51:33	Rowan Gaffney:	Hi Lina - we do not have that on schedule for this meeting. If there is a general need for SCINet/Globus training we could try and do this at a later time
+00:52:33	Rowan Gaffney:	Hi Yangui, SCINet is currently considering alternatives (e.g. discourse) to basecamp
+00:57:50	Rowan Gaffney:	SCINet VRSC email: scinet_vrsc@scinet.usda.gov
+01:01:28	Alisa Coffin:	I really like the idea of an informal coding question session.
+01:04:23	Patrick Clark:	Super job on this years tutorial choices!
+01:04:36	Rowan Gaffney:	Thanks Pat!
+01:04:57	Gerard Lazo:	Does anyone know of the CLASlite geospatial effort done through the Stanford group?
+01:05:56	Rowan Gaffney:	Hi Gerad - I am not familiar with CLASlite - will have to check it out and learn about it
+01:10:00	Scott Havens:	Another topic for the WG meetings would be data persistence on CERES. For example, if a model outputs a large amount of results how long can this data stay on CERES? Does it stay for the lifecycle of the study which could be multiple years? Or how do we design the studies to account for the data storage?
+01:11:01	Gerard Lazo:	https://claslite.org
+01:15:15	Rowan Gaffney:	Scott - I think that is a great idea for a future meeting. Storage/persistence is a common issue, especially on HPC systems where storage is typically quite expensive.
+01:15:30	Rowan Gaffney:	Thanks for the link Gerard.
+01:20:04	Rowan Gaffney:	Breaking for 10 minutes, resuming at 12:15 MDT
+01:29:21	Rowan Gaffney:	and... we're... back...
+01:44:24	Lina Castano-Duque:	Could you talk about data security that will be used for data that is highly sensitive? 
+01:52:01	Rajen Bajgain:	Because of the spatial and temporal large dimension, is it possible to select one site as an example  and then share the work flow or applications to download for multiple sites. How about creating and sharing some common applications or work flow ?
+01:52:42	Rowan Gaffney:	Hi Rajen - that is a great point!
+01:54:01	Claire Baffaut:	1. These data sets are created by authors or organizations.  What would be the relationship between SCINet and these creators?
+02:00:23	Scott Havens:	I found this a few days ago, it's meant for data version control for ML models but could work with other data sources https://dvc.org/
+02:01:54	Kerrie Geil:	thanks for the link scott!
+02:04:21	Shawn Taylor:	Yanghui on the topic of picking which datasets are worth hosting, something to consider is some of these common datasets have really good access already. For example if you just need timeseries for individual locations from daymet, their API can provide this in a few minutes. 
+02:05:36	Shawn Taylor:	But MODIS datasets have always been a pain to obtain, so that would be a great one to host.
+02:08:57	Rowan Gaffney:	Thanks Shawn - good point.
+02:16:26	Kerrie Geil:	we could definitely include tutorials on how to download data for example daymet with their API in the geospatial workbook
+02:22:42	Yanghui Kang:	https://forms.gle/8wvXvCxV7LCFodFP9
+02:22:58	Melanie Kammerer:	After downloading, it can be quite time consuming to stitch together raster datasets that are distributed as tiles (like aerial imagery). Would the common data library provide access to the individual tiles or could there an option to obtain a larger spatial area as one raster file?
+02:25:35	Rowan Gaffney:	Hi Melanie - I think ideally that would be part of the library, but may be out-of-scope for at least the first version.
+02:27:16	Melanie Kammerer:	Ok, perhaps something for a future wish list.
+02:46:05	Patrick Clark:	I would love to see a recipe/example application of ENVI/IDL in the GS Workbook.
+02:46:52	Alisa Coffin:	I think that we could maybe poll people to find out what are some low hanging fruit as far as repeated analyses, like querying a zone or a set of points in a data cube
+02:46:57	Patrick Clark:	E.g., spectral unmixing
+02:47:02	Melanie Kammerer:	I could imagine some examples written in multiple languages could be really useful. The same analysis in Python and R, for example.
+02:47:49	Alisa Coffin:	Provide a good example of a publication supplement of a Jupyter notebook in the workbook
+02:48:17	Gerard Lazo:	the wsl2 option on modern windows10 might help. Linux on windows
+02:58:07	Gerard Lazo:	kali Linux is the GUI to run on wsl2 for windows 10.  the newest version is a big improvement.
+02:58:40	Rowan Gaffney:	Cool - thanks Gerard - will have to check it out
+03:04:03	Melanie Kammerer:	Maybe there could be a couple tutorials that give examples of individual scripts, then a different tutorial showing how they could be run in sequence using NextFlow. 
+03:04:20	Scott Havens:	On my Windows, I'm in favor for running inside docker containers as it's much more flexible although a bit more to setup. However, in the end you will then have all the code and more importantly, runtime environment, that the study used which you can get a DOI for. There is a great interface with VS Code (https://code.visualstudio.com/docs/remote/containers) which has built in jupyter support
+03:06:05	Gerard Lazo:	if you use wsl2 on windows, docker does not co-exist well; you'll need to decide which environment you want to run docker on.
+03:10:13	Andrew Severin:	gifhelp@iastate.edu
+03:10:13	Gerard Lazo:	other framework languages like Nextflow are Cromwell/WDL, snakemake ...
+03:17:00	Rowan Gaffney:	Scott - great points about docker/containers/DOIs. FYI, we will be covering some of these things in Session 4 (Computational Reproducibility Tools)
+03:18:39	Lina Castano-Duque:	I think that continuity of the on-line training even after COVID would be good. This helps to include people from various backgrounds who would not necessarily be able to justify to RLs traveling to meet but are still interested in these topics
+03:26:31	Alisa Coffin:	This is awesome. The progress from last year is really great. Welcome to all the postdocs. I can't wait to see where this goes.
+03:26:47	Rowan Gaffney:	Thanks Alisa!
+03:27:37	Gerard Lazo:	I think SCINET has some Amazon Cloud agreements which are not well utilized. Or not readily available.
+03:28:25	Rowan Gaffney:	Hi Gerard - I think you are correct. I was thinking about something along the line of this effort: http://pangeo.io/
+03:28:39	Patrick Clark:	Great job, thanks.
+03:29:05	Gerard Lazo:	very interesting. enjoyed presentations.
