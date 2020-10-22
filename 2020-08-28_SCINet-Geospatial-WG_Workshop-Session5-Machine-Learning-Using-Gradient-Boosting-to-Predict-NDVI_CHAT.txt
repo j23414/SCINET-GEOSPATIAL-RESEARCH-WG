@@ -1,0 +1,59 @@
+00:14:11	Kerrie Geil:	https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/content/5-Session5-ml-tutorial.html
+00:21:57	Susan Stillman:	All - Kerrie is having issues with Zoom, post your questions to everyone (preferable) or private message them to me
+00:22:51	Zhanyou Xu:	Error: HTTP 500: Internal Server Error (Spawner failed to start [status=1]. The logs for zhanyou.xu may contain details.)
+00:24:16	Alicia Foxx:	Will we need to come up with the code/commands needed for the container exec args for other projects and if so, is there guidance?
+00:24:20	Sivanandan Chudalayandi:	or you can do `scancel <jobid> `
+00:25:16	Sivanandan Chudalayandi:	I usually do scancel and logout of Jupyterhub
+00:29:30	Yang Yang:	Can we change the Container Exec Args specs later?
+00:29:41	Alicia Foxx:	Thank you 
+00:30:04	Yasasvy Nanyam:	scinet_vrsc@usda.gov is the email
+00:35:30	Sivanandan Chudalayandi:	@Scott Havens… you may have to terminate JupyterHub and restart
+00:35:54	Sivanandan Chudalayandi:	Or use the static version for now
+00:36:08	Scott Havens:	I'm going to try a restart and see what happens
+00:37:41	Sivanandan Chudalayandi:	@Scott also delete the file that you copied now and copy it fresh later.
+00:39:53	Scott Havens:	Shutting down the JL server and redoing fixed the error
+00:40:15	Siva Chudalayandi:	Awesome!
+00:41:11	Lina Castano-Duque:	I get an error when building the cluster: /opt/conda/envs/py_geo/lib/python3.7/site-packages/distributed/node.py:155: UserWarning: Port 8787 is already in use.Perhaps you already have a cluster running?Hosting the HTTP server on port 44637 instead  http_address["port"], self.http_server.port
+00:41:59	David Horvath:	how to estimate the number of cores or memory to give it?
+00:43:52	Siva Chudalayandi:	@David, for number of cores and/or memory… its usually trial and error
+00:49:07	Lina Castano-Duque:	Is anyone else having issues running the scale cluster part?....my progress bar never moved
+00:50:47	Dave Fleisher:	Yes, me too.
+01:01:14	Nicole Kaplan:	in this case, how did you get the data there?
+01:03:30	Lina Castano-Duque:	If I want to do this with an R executable file and I want to submit a job to the slurm system that executes my .r file. Can I first build the cluster then use that cluster to run the slurm job? If so, how can I do that?
+01:09:17	Lina Castano-Duque:	I will try but my connection is super unstable
+01:10:05	Lina Castano-Duque:	yes
+01:10:41	Lina Castano-Duque:	cool, thanks
+01:10:58	Guillermo Ponce:	Rowan… I noticed that the data types that you are handling(predictors) is in Float64, changing to Float32 or something like it, do you think that could improve the speed further into all the different processing happening?
+01:12:20	Guillermo Ponce:	I was thinking more on precision of computing values
+01:13:31	Siva Chudalayandi:	Reg R scalable: One option I have seen: https://www.dursi.ca/post/scalable-data-analysis-in-r.html
+01:14:49	Siva Chudalayandi:	nothing like DASK though
+01:15:00	Yanghui Kang:	Nicole, thanks for the question. Rowan will address your question when he pause for questions next time.
+01:16:04	Nicole Kaplan:	Siva, thanks!
+01:19:10	Elizabeth Chin:	Can you explain the purpose of splitting the data prior to applying SHAP?
+01:21:23	Nicole Kaplan:	hi
+01:22:55	Jennifer Chang:	Using wget in the script?
+01:23:15	Max Feldman:	I’m an inexperienced python user. I don’t understand why sometimes functions are defined like this:        def __init__(self, df_soil, df_env,lag):          and sometimes functions are defined like this:         def transform(self, X, y=None):         Probably not the right forum to ask but if there is a simple answer I’d love to know
+01:23:24	Nicole Kaplan:	sounds good.  Thanks!
+01:23:53	Max Feldman:	Specifically, I’m not sure what the __something__ means...
+01:24:04	David Horvath:	how did you get rid of that error again?
+01:24:56	David Horvath:	so the dask turns orange
+01:29:14	Nicole Kaplan:	this has been great, thanks!
+01:30:30	Yanghui Kang:	Jennifer, I think Rowan indicated that he used ‘xarray’ to access data from ftp, http, etc in his script for the tutorial. But one can use wget to get data to CERES too.
+01:31:17	Jennifer Chang:	I saw, but thanks for circling back Yanghui :)
+01:31:54	Siva Chudalayandi:	Max: check this: https://www.tutorialspoint.com/What-is-difference-between-self-and-init-methods-in-python-Class#:~:text=__init__%20method,the%20attributes%20of%20the%20class.
+01:32:58	David Horvath:	where is the "address bar"?
+01:33:12	Yang Yang:	Thanks Rowan, this is very helpful. I got two questions: Did you create the container on your local PC first and then upload in ceres? The second is more like a general one, from your experience, what are the major aspects shall we pay attention when build containers from scratch?
+01:34:53	Nicole Kaplan:	I have a jupyter hub question.  is there a way we can run some extensions to get a scratch pad, table of contents, etc.
+01:35:20	David Horvath:	no mic on this computer
+01:36:54	David Horvath:	got it thanks!
+01:37:53	Hye-Seon Kim:	Is possible to get a script that you created?
+01:39:43	Scott Havens:	@Gerardo, I had the same problem yesterday but it's working today. My guess would be restarting the jupyter server
+01:41:11	Nicole Kaplan:	@Gerardo, I'm having that problem too, but will restart the server and give it a try.
+01:43:40	Nicole Kaplan:	scratch pad and table of contents
+01:44:21	Nicole Kaplan:	good question
+01:45:59	Lina Castano-Duque:	for loading a container using jupyter hub, do I get the web location from docker (Or any other repo) and replace that address in the log in step of jupyter hub?
+01:48:19	Gerardo Armendariz:	Thank again! 👍🏼
+01:48:23	Siva Chudalayandi:	thanks all!!
+01:48:38	Yanghui Kang:	https://www.zoomgov.com/meeting/register/vJIscO-gqzwqHIbg_hUB-6vHosTYeDjjS_Y
+01:48:48	Yanghui Kang:	Here is the link to register for the speakers session
+01:49:05	santosh sharma:	Than you all! 

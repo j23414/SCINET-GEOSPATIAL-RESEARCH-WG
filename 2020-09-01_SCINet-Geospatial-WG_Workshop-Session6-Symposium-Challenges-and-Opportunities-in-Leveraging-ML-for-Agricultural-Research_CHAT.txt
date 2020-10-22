@@ -1,0 +1,28 @@
+00:19:08	Amy Hudson:	Welcome to SCINet’s Geospatial Workshop Symposium: Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture
+For Session 6 agenda and speaker information: https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/content/6-session6-speakers.html
+We have muted participants. We ask that if you have a clarifying question during a speaker’s presentation, please write it in the moderated chat to everyone and it will be asked at an appropriate break. We will ideally have time at the end of each presentation for 1 or 2 questions, again asked through the chat window. We may defer some of these questions to our broader panel session, or we will try to put you in touch with the speaker outside of the symposium.
+00:23:06	Amy Hudson:	kerrie.geil@usda.gov
+00:23:09	Amy Hudson:	rowan.gaffney@usda.gov
+00:42:47	Alicia Foxx:	Invasive species are well represented in the western US - did you have data on whether the plants were invasive or native and whether there was different cover based on the native/invasive classification? 
+00:56:43	Shawn Taylor:	this is a great example of a cutting edge deep learning model in ecology, especially the temporal and multiple response components. I see you have the model outlined in your preprint. Do you have the tensorflow code somewhere for us to look at?
+00:58:24	Zhanyou Xu:	How can you tell people who has no machine learning knowledge how accurate the model is? RMSE may not  obvious 
+01:28:41	Shawn Taylor:	did you do any temporal out of sample testing? for example train the model with years 2001-2010 and test on 2011-2015 ?
+01:29:55	Zhanyou Xu:	have you compared the prediction accuracy between using deep learning via convolution and random forest using statistic data directly (acreage) as predictor?
+01:35:31	Amy Hudson:	Welcome to SCINet’s Geospatial Workshop Symposium: Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture
+For Session 6 agenda and speaker information: https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/content/6-session6-speakers.html
+We have muted participants. We ask that if you have a clarifying question during a speaker’s presentation, please write it in the moderated chat to everyone and it will be asked at an appropriate break. We will ideally have time at the end of each presentation for 1 or 2 questions, again asked through the chat window. We may defer some of these questions to our broader panel session, or we will try to put you in touch with the speaker outside of the symposium.
+02:09:42	Amy Hudson:	Welcome to SCINet’s Geospatial Workshop Symposium: Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture
+For Session 6 agenda and speaker information: https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/content/6-session6-speakers.html
+We have muted participants. We ask that if you have a clarifying question during a speaker’s presentation, please write it in the moderated chat to everyone and it will be asked at an appropriate break. We will ideally have time at the end of each presentation for 1 or 2 questions, again asked through the chat window. We may defer some of these questions to our broader panel session, or we will try to put you in touch with the speaker outside of the symposium.
+02:44:59	Amy Hudson:	Huang, J., A.R. Desai, J. Zhu, A.E. Hartemink, P. Stoy, S.P. Loheide II, and F.J. Arriaga. 2020. Retrieving heterogeneous surface soil moisture at 100 m across the globe via synergistic fusion of remote sensing and surface parameters. Water Resour. Res 00:000-000. (In review).
+02:45:38	Amy Hudson:	https://www.essoar.org/doi/abs/10.1002/essoar.10502252.1
+02:46:05	Amy Hudson:	We will resume with our panel session in 10 minutes, 1:40 MT
+02:46:09	Jingyi Huang:	R Codes for Global Soil Moisture Maps available on GitHub: https://github.com/soilsensingmonitoring/Global_soil_moisture_mapping
+02:58:29	Yanghui Kang:	Please feel free to type your question in the chat to all the speakers or directed to a specific speaker.
+02:58:47	srinivasa pinnamaneni:	Wondering the use of machine learning techniques in analyzing eddy covariance data!
+03:08:54	santosh sharma:	Do you think previous biological system knowledge is more important in computational biology now or parameter optimization in learning and adaptation of new algorithms can be more important?
+03:14:15	Claire Baffaut:	Dr. Sagan, which ones of those are skills that require long time to learn, which ones can be learned more quickly. In other words, what is the learning curve (temporally speaking) for each of those skill types, especially for the last two?
+03:29:07	Amy Hudson:	https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/
+03:29:50	Claire Baffaut:	Thank you all for all your work! Very instructive.
+03:29:52	Lauren Porensky:	Thank you everyone!!
+03:29:55	srinivasa pinnamaneni:	I have audioThanks
