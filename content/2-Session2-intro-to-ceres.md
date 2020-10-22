@@ -2,10 +2,6 @@
 title: Session2
 nav: true
 --- 
-{% capture text %}
-We will stop approving new registrations about an hour before each session. Please register in advance of that cutoff so you don't get left out!
-{% endcapture %} 
-{% include alert.md text=text color='warning' %}
 
 # Session 2 Tutorial:
 
@@ -14,7 +10,7 @@ We will stop approving new registrations about an hour before each session. Plea
 This page contains all the info you need to participate in Session 2 of the SCINet Geospatial Workshop 2020.
 
 {% capture text %}
-The session recording is available for anyone with a usda.gov email address and eAuthentication at (location coming soon).
+[Zoom session recording](https://web.microsoftstream.com/video/88614d49-973c-44b1-82c4-2cf2fee3723d) (USDA eAuth required), [Zoom session chat](/SCINET-GEOSPATIAL-RESEARCH-WG/docs/2020-08-27_SCINet-Geospatial-WG_Workshop-Session2-Intro-to-Ceres-HPC_CHAT.txt)
 {% endcapture %} 
 {% include alert.md text=text %}
 <br><br>
