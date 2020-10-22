@@ -3,21 +3,16 @@ title: Session3
 nav: true
 --- 
 
-{% capture text %}
-We will stop approving new registrations about an hour before each session. Please register in advance of that cutoff so you don't get left out!
-{% endcapture %} 
-{% include alert.md text=text color='warning' %}
-
 # Session 3 Tutorial:
 
 # Intro to Distributed Computing on the Ceres HPC System Using Python and Dask
 
 This page contains all the info you need to participate in Session 3 of the SCINet Geospatial Workshop 2020.
 
-**A note about running this tutorial in your home directory:** some participants got errors either downloading to or running the tutorial from their home directory because they did not have enough space free in their home directory. If this happens to you, download to and run the tutorial from a project directory. If you are a new HPC user and don't yet have a project directory, you can request a small increase in space to your home directory from the SCINet VRSC at scinet_vrsc@usda.gov.
+**A note about running this tutorial in your home directory:** some participants got errors either downloading to or running the tutorial from their home directory because they did not have enough space free in their home directory. If this happens to you, download to and run the tutorial from a project directory on the Ceres HPC. If you are a new HPC user and don't yet have a project directory, you can request a small increase in space to your home directory from the SCINet VRSC at scinet_vrsc@usda.gov.
 
 {% capture text %}
-The session recording is available for anyone with a usda.gov email address and eAuthentication at (location coming soon).
+[Zoom session recording](https://web.microsoftstream.com/video/c771330e-98f0-4ed5-a8b6-c7ff22032568)(requires USDA eAuth), [Zoom session chat](/SCINET-GEOSPATIAL-RESEARCH-WG/docs/2020-08-27_SCINet-Geospatial-WG_Workshop-Session3-Intro-to-Python-Dask_CHAT.txt)
 {% endcapture %} 
 {% include alert.md text=text %}
 
@@ -86,6 +81,8 @@ At the command line
 ```bash 
 cp /project/shared_files/GEOSPATIAL_WORKSHOP/session3-intro-to-python-dask-on-ceres.ipynb .
 ```
+
+Note: if you are following along with these instructions after the workshop has ended, the /project/shared_files/GEOSPATIAL_WORKSHOP/ shared folder on Ceres may no longer exist. Please follow the git clone instructions below.
 
 {% capture text %}
 Note: The original method listed here for accessing our tutorials (from GitHub) was not working for some participants. It will be easiest to copy the files from the shared folder on Ceres as above... but an alternate method you can try is to download the tutorial material from the workshop GitHub repo.
