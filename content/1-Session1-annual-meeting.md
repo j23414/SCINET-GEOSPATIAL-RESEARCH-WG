@@ -8,7 +8,7 @@ nav: true
 This page contains all the info you need to participate in Session 1 of the SCINet Geospatial Workshop 2020. 
 
 {% capture text %}
-The session recording is available for anyone with a usda.gov email address and eAuthentication at (location coming soon).
+[Zoom session recording](https://web.microsoftstream.com/video/e469908f-bc92-4199-a875-21f513c113b2) (USDA eAuthentication required), [Zoom session chat](/SCINET-GEOSPATIAL-RESEARCH-WG/docs/2020-08-25_SCINet-Geospatial-WG_Workshop-Session1-Annual-Meeting_CHAT.txt)
 {% endcapture %} 
 {% include alert.md text=text %}
 
